@@ -1,0 +1,10 @@
+.fuente{
+    font-family: 'pacific', cursive;
+}
+
+.fondo{
+    background-image: url("img/fondo.jpg");
+    height: 550px;
+    background-attachment: fixed;
+    background-position: top center;
+}
