@@ -1,7 +1,7 @@
 // consumo(traer datos) de appi desde un cliente js
 
 const URI="https://api.spotify.com/v1/artists/4N5fp4zhTsVITZTVfsXpc2/top-tracks?market=US" 
-const TOKEN= "Bearer BQAmDlH4a36FdWpZHds0Kjr88K9B58CYo57v6n_r3io5HEScqkQkqjhRRoq-aAqRpE3PSBglPF7r93-RtmfiRVsEojjkg2gM4ejO08X-CO1do6cq6O0ZkvYBQaRlnyAW34N03um9X_3tlSEEO4KNbw8V_ptm81s"
+const TOKEN= "Bearer BQAt_cat-HB8MFsteB0u3xwXrKf7KsXMKK_ZN2MU8CE2OHJ8Cx7dbg-mdJJcJwZDF4evYJ65pEH0XhB_gXPNx8d8XEH8hyAZ_FdWkzXLlHVUZ7flLWzyq66nrjYDPA8YLxcjXmkEkLvJ09WJa6bDrBCrcu2glPo"
 
 // los parametros siempre seran un objeto
 //1. method
@@ -14,7 +14,7 @@ const PARAMETROS_PETICION={
 //ir a tocar la puerta al server
 
 fetch(URI,PARAMETROS_PETICION)
-.then(function(respuesta){ // verificar el formatojson de la respuesta
+.then(function(respuesta){ // verificar el formato json de la respuesta
     return(respuesta.json())
 })
 .then(function(respuesta){ //hago lo que necesite con la respuesta

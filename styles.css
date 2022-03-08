@@ -3,8 +3,13 @@
 }
 
 .fondo{
-    background-image: url("img/fondo.jpg");
-    height: 550px;
+    background-image: url("img/img1.jpg");
+    height: 400px;
     background-attachment: fixed;
     background-position: top center;
+}
+.fondobanner{
+    background-image: url(img/banner1.gif.crdownload);
+    height: 600px;
+    background-attachment: fixed;
 }
